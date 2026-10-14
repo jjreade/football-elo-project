@@ -1,6 +1,6 @@
 # football-elo-project
 
-Elo ratings, as devised by Arpad Elo, are a very simple way of tracking how good participants in sporting contests are. They underpin many official rankings in different sports. In football, for national teams [eloratings.net](https://eloratings.net/) provides Elo ratings, while [clubelo.com](https://www.clubelo.com/) does the same for club teams.
+Elo ratings, as devised by [https://gwern.net/doc/statistics/order/comparison/1978-elo-theratingofchessplayerspastandpresent.pdf](Arpad Elo in 1978), are a relatively simple way of tracking how good participants in sporting contests are. They underpin many official rankings in different sports. They are equally calculated by many people due to the [https://en.wikipedia.org/wiki/Elo_rating_system](method being readily available for coding). In football, for national teams [eloratings.net](https://eloratings.net/) provides Elo ratings, while [clubelo.com](https://www.clubelo.com/) does the same for club teams.
 
 I have long calculated Elo ratings for my own research purposes, slightly tweaking the method as I've gone along, without ever making the ratings or the method available. On this repo I'll aim to do that, based on a research collaboration with Carl Singleton and Luca De Angelis.
 
@@ -46,6 +46,28 @@ The ratings are collected as follows:
 - Matches in 2024 can be found [here](elo-2024.csv).
 - Matches in 2025 can be found [here](elo-2025.csv).
 - Matches in 2026 can be found [here](elo-2026.csv).
+
+Each file is organised as follows:
+- date: the date the match took place on
+- team1: the team listed first (usually the home team)
+- goals1: goals scored by the team listed first
+- goals2: goals scored by the team listed second
+- team2: the team listed second (usually the away team)
+- Elo predictions:
+  - elopredict.kovalchik.dbl: Exponential decay with each match of a club's existence and current season
+  - elopredict.decay: A decay factor for if a team hasn't played in a long time.
+  - elopredict.home.adv: Adding a home advantage parameter into the calculation.
+  - elopredict.goal.diff: Using goal difference in matches to update Elo ratings.
+  - elopredict.cup: Increasing the weight for cup matches.
+  - elopredict.full: All of the above
+  - elopredict.base1: K adjustment factor = 1
+  - elopredict.base5: K adjustment factor = 5
+  - elopredict.base10: K adjustment factor = 10
+  - elopredict.base20: K adjustment factor = 20
+  - elopredict.base40: K adjustment factor = 40
+  - elopredict.clubelo: Elo predictions from clubelo (via [https://github.com/xgabora/Club-Football-Match-Data](xgabora's Github).
+
+I will update these files shortly to include the Elo ratings for the teams in each match also.
 
 Please feel free to use these Elo ratings in your work, should they prove useful. If you do, please cite the following:
 "Developing Elo Ratings for Club Football Matches”, Reade, J.J., De Angelis, L., and Singleton, C., 2026, Discussion Paper, Department of Economics, University of Reading.
