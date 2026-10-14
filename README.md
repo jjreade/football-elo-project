@@ -7,7 +7,7 @@ I have long calculated Elo ratings for my own research purposes, slightly tweaki
 My ratings were used in the State of the Game Report released by the Independent Football Regulator in England, in part because of the leagues and teams the cover. I use results data I've scraped from Soccerbase, alongside other sources to go back to 1866. This means that my ratings both cover a very long period of time (and I hope that this historic coverage will continue to expand), and a lot of teams - down below the Football League in England, and they cover all the competitions that Soccerbase has expanded to in recent years.
 
 The ratings are collected as follows:
-- Pre 1890 football matches (in England) can be found, with Elo ratings for each team and a prediction, [here](elo-pre1890s.csv).
+- Pre 1890 football matches (in England) can be found, with Elo ratings for each team and a prediction, [here](data/elo-pre1890s.csv).
 - Matches in the 1890s can be found [here](data/elo-1890s.csv).
 - Matches in the 1900s can be found [here](elo-1900s.csv).
 - Matches in the 1910s can be found [here](elo-1910s.csv).
