@@ -2,7 +2,7 @@
 
 Elo ratings, as devised by [Arpad Elo in 1978](https://gwern.net/doc/statistics/order/comparison/1978-elo-theratingofchessplayerspastandpresent.pdf), are a relatively simple way of tracking how good participants in sporting contests are. They underpin many official rankings in different sports. They are equally calculated by many people due to the [method being readily available for coding](https://en.wikipedia.org/wiki/Elo_rating_system). In football, for national teams [eloratings.net](https://eloratings.net/) provides Elo ratings, while [clubelo.com](https://www.clubelo.com/) does the same for club teams.
 
-I have long calculated Elo ratings for my own research purposes, slightly tweaking the method as I've gone along, without ever making the ratings or the method available. On this repo I'll aim to do that, based on a research collaboration with Carl Singleton and Luca De Angelis.
+I have long calculated Elo ratings for my own research purposes, slightly tweaking the method as I've gone along, without ever making the ratings or the method available. On this repo the Elo ratings, and associated predictions, based on a research collaboration with Carl Singleton and Luca De Angelis, are posted. The underlying research paper behind the various different ratings presented here can be found, in highly preliminary format, [here](https://github.com/jjreade/football-elo-project/blob/main/elo-ratings-v2026.pdf).
 
 My ratings were used in the State of the Game Report released by the Independent Football Regulator in England, in part because of the leagues and teams the cover. I use results data I've scraped from Soccerbase, alongside other sources to go back to 1866. This means that my ratings both cover a very long period of time (and I hope that this historic coverage will continue to expand), and a lot of teams - down below the Football League in England, and they cover all the competitions that Soccerbase has expanded to in recent years.
 
@@ -65,9 +65,7 @@ Each file is organised as follows:
   - elopredict.base10: K adjustment factor = 10
   - elopredict.base20: K adjustment factor = 20
   - elopredict.base40: K adjustment factor = 40
-  - elopredict.clubelo: Elo predictions from clubelo (via [xgabora's Github](https://github.com/xgabora/Club-Football-Match-Data).
-
-I will update these files shortly to include the Elo ratings for the teams in each match also.
+  - elopredict.clubelo: Elo predictions from clubelo (via [xgabora's Github](https://github.com/xgabora/Club-Football-Match-Data)).
 
 Please feel free to use these Elo ratings in your work, should they prove useful. If you do, please cite the following:
-"Developing Elo Ratings for Club Football Matches”, Reade, J.J., De Angelis, L., and Singleton, C., 2026, Discussion Paper, Department of Economics, University of Reading.
+"Developing Elo Ratings for Club Football Matches”, Reade, J.J., De Angelis, L., and Singleton, C., 2026, Discussion Paper, Department of Economics, University of Reading. Latest version of paper is [here](https://github.com/jjreade/football-elo-project/blob/main/elo-ratings-v2026.pdf).
