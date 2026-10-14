@@ -9,43 +9,43 @@ My ratings were used in the State of the Game Report released by the Independent
 The ratings are collected as follows:
 - Pre 1890 football matches (in England) can be found, with Elo ratings for each team and a prediction, [here](data/elo-pre1890s.csv).
 - Matches in the 1890s can be found [here](data/elo-1890s.csv).
-- Matches in the 1900s can be found [here](elo-1900s.csv).
-- Matches in the 1910s can be found [here](elo-1910s.csv).
-- Matches in the 1920s can be found [here](elo-1920s.csv).
-- Matches in the 1930s can be found [here](elo-1930s.csv).
-- Matches in the 1940s can be found [here](elo-1940s.csv).
-- Matches in the 1950s can be found [here](elo-1950s.csv).
-- Matches in the 1960s can be found [here](elo-1960s.csv).
-- Matches in the 1970s can be found [here](elo-1970s.csv).
-- Matches in the 1980s can be found [here](elo-1980s.csv).
-- Matches in the 1990s can be found [here](elo-1990s.csv).
-- Matches in 2000 can be found [here](elo-2000.csv).
-- Matches in 2001 can be found [here](elo-2001.csv).
-- Matches in 2002 can be found [here](elo-2002.csv).
-- Matches in 2003 can be found [here](elo-2003.csv).
-- Matches in 2004 can be found [here](elo-2004.csv).
-- Matches in 2005 can be found [here](elo-2005.csv).
-- Matches in 2006 can be found [here](elo-2006.csv).
-- Matches in 2007 can be found [here](elo-2007.csv).
-- Matches in 2008 can be found [here](elo-2008.csv).
-- Matches in 2009 can be found [here](elo-2009.csv).
-- Matches in 2010 can be found [here](elo-2010.csv).
-- Matches in 2011 can be found [here](elo-2011.csv).
-- Matches in 2012 can be found [here](elo-2012.csv).
-- Matches in 2013 can be found [here](elo-2013.csv).
-- Matches in 2014 can be found [here](elo-2014.csv).
-- Matches in 2015 can be found [here](elo-2015.csv).
-- Matches in 2016 can be found [here](elo-2016.csv).
-- Matches in 2017 can be found [here](elo-2017.csv).
-- Matches in 2018 can be found [here](elo-2018.csv).
-- Matches in 2019 can be found [here](elo-2019.csv).
-- Matches in 2020 can be found [here](elo-2020.csv).
-- Matches in 2021 can be found [here](elo-2021.csv).
-- Matches in 2022 can be found [here](elo-2022.csv).
-- Matches in 2023 can be found [here](elo-2023.csv).
-- Matches in 2024 can be found [here](elo-2024.csv).
-- Matches in 2025 can be found [here](elo-2025.csv).
-- Matches in 2026 can be found [here](elo-2026.csv).
+- Matches in the 1900s can be found [here](data/elo-1900s.csv).
+- Matches in the 1910s can be found [here](data/elo-1910s.csv).
+- Matches in the 1920s can be found [here](data/elo-1920s.csv).
+- Matches in the 1930s can be found [here](data/elo-1930s.csv).
+- Matches in the 1940s can be found [here](data/elo-1940s.csv).
+- Matches in the 1950s can be found [here](data/elo-1950s.csv).
+- Matches in the 1960s can be found [here](data/elo-1960s.csv).
+- Matches in the 1970s can be found [here](data/elo-1970s.csv).
+- Matches in the 1980s can be found [here](data/elo-1980s.csv).
+- Matches in the 1990s can be found [here](data/elo-1990s.csv).
+- Matches in 2000 can be found [here](data/elo-2000.csv).
+- Matches in 2001 can be found [here](data/elo-2001.csv).
+- Matches in 2002 can be found [here](data/elo-2002.csv).
+- Matches in 2003 can be found [here](data/elo-2003.csv).
+- Matches in 2004 can be found [here](data/elo-2004.csv).
+- Matches in 2005 can be found [here](data/elo-2005.csv).
+- Matches in 2006 can be found [here](data/elo-2006.csv).
+- Matches in 2007 can be found [here](data/elo-2007.csv).
+- Matches in 2008 can be found [here](data/elo-2008.csv).
+- Matches in 2009 can be found [here](data/elo-2009.csv).
+- Matches in 2010 can be found [here](data/elo-2010.csv).
+- Matches in 2011 can be found [here](data/elo-2011.csv).
+- Matches in 2012 can be found [here](data/elo-2012.csv).
+- Matches in 2013 can be found [here](data/elo-2013.csv).
+- Matches in 2014 can be found [here](data/elo-2014.csv).
+- Matches in 2015 can be found [here](data/elo-2015.csv).
+- Matches in 2016 can be found [here](data/elo-2016.csv).
+- Matches in 2017 can be found [here](data/elo-2017.csv).
+- Matches in 2018 can be found [here](data/elo-2018.csv).
+- Matches in 2019 can be found [here](data/elo-2019.csv).
+- Matches in 2020 can be found [here](data/elo-2020.csv).
+- Matches in 2021 can be found [here](data/elo-2021.csv).
+- Matches in 2022 can be found [here](data/elo-2022.csv).
+- Matches in 2023 can be found [here](data/elo-2023.csv).
+- Matches in 2024 can be found [here](data/elo-2024.csv).
+- Matches in 2025 can be found [here](data/elo-2025.csv).
+- Matches in 2026 can be found [here](data/elo-2026.csv).
 
 Each file is organised as follows:
 - date: the date the match took place on
@@ -53,7 +53,7 @@ Each file is organised as follows:
 - goals1: goals scored by the team listed first
 - goals2: goals scored by the team listed second
 - team2: the team listed second (usually the away team)
-- Elo predictions:
+- Elo predictions (elopredict.[type], elostrength.[type].1, elostrength.[type].2):
   - elopredict.kovalchik.dbl: Exponential decay with each match of a club's existence and current season
   - elopredict.decay: A decay factor for if a team hasn't played in a long time.
   - elopredict.home.adv: Adding a home advantage parameter into the calculation.
