@@ -8,7 +8,7 @@ My ratings were used in the State of the Game Report released by the Independent
 
 The ratings are collected as follows:
 - Pre 1890 football matches (in England) can be found, with Elo ratings for each team and a prediction, [here](elo-pre1890s.csv).
-- Matches in the 1890s can be found [here](elo-1890s.csv).
+- Matches in the 1890s can be found [here](data/elo-1890s.csv).
 - Matches in the 1900s can be found [here](elo-1900s.csv).
 - Matches in the 1910s can be found [here](elo-1910s.csv).
 - Matches in the 1920s can be found [here](elo-1920s.csv).
