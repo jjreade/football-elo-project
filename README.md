@@ -55,18 +55,19 @@ Each file is organised as follows:
 - team2: the team listed second (usually the away team)
 - div_id: the Soccerbase division ID that the match took place in (see [here](https://www.soccerbase.com/tournaments/home.sd) for a breakdown)
 - Elo predictions (elopredict.[type], elostrength.[type].1, elostrength.[type].2):
-  - elopredict.kovalchik.dbl: Exponential decay with each match of a club's existence and current season
-  - elopredict.decay: A decay factor for if a team hasn't played in a long time.
-  - elopredict.home.adv: Adding a home advantage parameter into the calculation.
-  - elopredict.goal.diff: Using goal difference in matches to update Elo ratings.
-  - elopredict.cup: Increasing the weight for cup matches.
-  - elopredict.full: All of the above
+  - elopredict.kovalchik.dbl: Exponential decay with each match of a club's existence and current season (K=10).
+  - elopredict.decay: A decay factor for if a team hasn't played in a long time (K=10).
+  - elopredict.home.adv: Adding a home advantage parameter into the calculation (K=10).
+  - elopredict.goal.diff: Using goal difference in matches to update Elo ratings (K=10).
+  - elopredict.cup: Increasing the weight for cup matches (K=10).
+  - elopredict.full: All of the above (K=10).
   - elopredict.base1: K adjustment factor = 1
   - elopredict.base5: K adjustment factor = 5
   - elopredict.base10: K adjustment factor = 10
   - elopredict.base20: K adjustment factor = 20
   - elopredict.base40: K adjustment factor = 40
   - elopredict.clubelo: Elo predictions from clubelo (via [xgabora's Github](https://github.com/xgabora/Club-Football-Match-Data)).
+  - elorating1 and elorating2: My preferred Elo ratings for clubs; K=10, exponential decay for existence and season, and cup upweighting - double for domestic cups, triple for international ones.
 
-Please feel free to use these Elo ratings in your work, should they prove useful. If you do, please cite the following:
+Please feel free to use these Elo ratings in your work, should they prove useful. If you do, please get in touch and let us know that you're using them. If you spot errors and mistakes, please also get in touch! And finally, please cite the following:
 "Developing Elo Ratings for Club Football Matches”, Reade, J.J., De Angelis, L., and Singleton, C., 2026, Discussion Paper, Department of Economics, University of Reading. Latest version of paper is [here](https://github.com/jjreade/football-elo-project/blob/main/elo-ratings-v2026.pdf).
