@@ -53,6 +53,7 @@ Each file is organised as follows:
 - goals1: goals scored by the team listed first
 - goals2: goals scored by the team listed second
 - team2: the team listed second (usually the away team)
+- div_id: the Soccerbase division ID that the match took place in (see [here](https://www.soccerbase.com/tournaments/home.sd) for a breakdown)
 - Elo predictions (elopredict.[type], elostrength.[type].1, elostrength.[type].2):
   - elopredict.kovalchik.dbl: Exponential decay with each match of a club's existence and current season
   - elopredict.decay: A decay factor for if a team hasn't played in a long time.
