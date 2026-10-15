@@ -68,6 +68,7 @@ Each file is organised as follows:
   - elopredict.base40: K adjustment factor = 40
   - elopredict.clubelo: Elo predictions from clubelo (via [xgabora's Github](https://github.com/xgabora/Club-Football-Match-Data)).
   - elorating1 and elorating2: My preferred Elo ratings for clubs; K=10, exponential decay for existence and season, and cup upweighting - double for domestic cups, triple for international ones.
+  - elopredict: the variable with nothing after it is my preferred Elo ratings prediction for that match.
 
 Please feel free to use these Elo ratings in your work, should they prove useful. If you do, please get in touch and let us know that you're using them. If you spot errors and mistakes, please also get in touch! And finally, please cite the following:
 "Developing Elo Ratings for Club Football Matches”, Reade, J.J., De Angelis, L., and Singleton, C., 2026, Discussion Paper, Department of Economics, University of Reading. Latest version of paper is [here](https://github.com/jjreade/football-elo-project/blob/main/elo-ratings-v2026.pdf).
